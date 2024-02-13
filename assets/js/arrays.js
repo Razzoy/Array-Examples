@@ -23,8 +23,6 @@ const addCars1 = cars.push('Honda', 'Mitsubishi');
 //Her kalder jeg variablen til arrayet. Honda skal gerne have taget Ford's plads, efterfulgt af Mitsubishi.
 console.log(addCars1);
 
-console.log(cars);
-
 
 // shift()
 // - Denne metode har samme oførsel som pop(), men hvor den fjerner det første element og retunerer det fra et array.
@@ -40,8 +38,6 @@ const addPorsche = cars.unshift('Porsche');
 
 //Jeg kalder variablen addPorsche til mit array, så at Porsche gerne skulle komme først, og have erstattet Audi's plads.
 console.log(addPorsche);
-
-console.log(cars);
 
 // slice()
 // - Denne metode er en kopi metode, som retunerer en kopi af en portion fra en array og laver et nyt array med de udvalgte elementer.
